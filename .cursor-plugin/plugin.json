@@ -1,0 +1,13 @@
+{
+  "name": "wefishreviews",
+  "displayName": "WeFishReviews",
+  "version": "0.1.0",
+  "description": "Review movies and TV, and manage your watchlist and lists from your AI assistant.",
+  "author": {
+    "name": "Kas (PersonalAffairs)"
+  },
+  "homepage": "https://wefishreviews.onrender.com",
+  "repository": "https://github.com/PersonalAffairs/wefishreviews-plugin",
+  "keywords": ["movies", "tv", "reviews", "watchlist", "lists", "mcp"],
+  "logo": "assets/logo.png"
+}

@@ -1,0 +1,12 @@
+---
+description: Score scale and confirmation rules for WeFishReviews reviews and lists
+alwaysApply: true
+---
+
+When WeFishReviews tools are available:
+
+- Scores run from 0 to 10, and decimals are allowed (for example 8.5). A rating out of 5 stars converts by doubling it (4/5 stars = 8.0).
+- Before `post_review`, identify the title and confirm the exact match (title, year, and movie or TV) with the user.
+- Before `delete_my_review` or `remove_from_list`, the user must explicitly agree, and the tool call must set `confirm` to true.
+- "Watchlist" means the built-in Backlog list.
+- Link titles on https://wefishreviews.onrender.com.
